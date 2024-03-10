@@ -3,19 +3,20 @@
 ### Tarefas:
 <p><1) Ao clicar em uma determinada data do calendário, será chamada a função processarDataClicada(), que receberá os parametros informados no código.</p>
 <p><2) Dai queremos saber qual o signo da data clicada, seguindo a lógica:</p>
-  
-Áries: 21 de março a 19 de abril
-Touro: 20 de abril a 20 de maio
-Gêmeos: 21 de maio a 20 de junho
-Câncer: 21 de junho a 22 de julho
-Leão: 23 de julho a 22 de agosto
-Virgem: 23 de agosto a 22 de setembro
-Libra: 23 de setembro a 22 de outubro
-Escorpião: 23 de outubro a 21 de novembro
-Sagitário: 22 de novembro a 21 de dezembro
-Capricórnio: 22 de dezembro a 19 de janeiro
-Aquário: 20 de janeiro a 18 de fevereiro
-Peixes: 19 de fevereiro a 20 de março
+
+#### Regras:
+Áries: 21 de março a 19 de abril<br>
+Touro: 20 de abril a 20 de maio<br>
+Gêmeos: 21 de maio a 20 de junho<br>
+Câncer: 21 de junho a 22 de julho<br>
+Leão: 23 de julho a 22 de agosto<br>
+Virgem: 23 de agosto a 22 de setembro<br>
+Libra: 23 de setembro a 22 de outubro<br>
+Escorpião: 23 de outubro a 21 de novembro<br>
+Sagitário: 22 de novembro a 21 de dezembro<br>
+Capricórnio: 22 de dezembro a 19 de janeiro<br>
+Aquário: 20 de janeiro a 18 de fevereiro<br>
+Peixes: 19 de fevereiro a 20 de março<br><br>
 
 Um exemplo de verificação seria:
 
