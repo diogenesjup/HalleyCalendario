@@ -21,7 +21,7 @@ Um exemplo de verificação seria:
 
 ```js
 if ((mes == 3 && dia >= 21) || (mes == 4 && dia <= 19)) {
-        return "Áries";
+        console.log("Áries");
 }
 ```
 Lembre-se de que o mês será recebido como "01", do tipo string, logo, você precisa converter para parseInt para garantir que seja considerado como número inteiro.
