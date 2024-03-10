@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+<title>Projeto Calendário</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+<meta name="theme-color" content="#053d4e">
+<meta name="apple-mobile-web-app-status-bar-style" content="#053d4e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Projeto Calendário">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+<meta name="google" content="notranslate">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Projeto Calendário">
+<meta name="keywords" content="Projeto Calendário">
+<meta name="author" content="Diogenes Junior">
+<meta name="rating" content="general">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="revisit-after" content="1 days">
+<meta name="language" content="pt-br">
+<meta name="generator" content="Diogenes Junior">
+
+<link rel="stylesheet" type="text/css" href="assets/css/diogenes-grid.css" />
+
+<style>
+      
+      body{
+            padding: 25px;
+            font-family: Calibri;
+      }
+
+      .fc-today-button::after {
+          content: "Hoje";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 14px; /* Ajuste conforme necessário */
+      }
+
+      .fc-today-button {
+          position: relative;
+          visibility: hidden;
+      }
+
+      .fc-daygrid-day {
+          cursor: pointer;
+      }
+
+</style>
+
+</head>
+<body>
+
+      
+
+      <div class="container">
+            <div class="diogenes-row">
+                  <div class="diogenes-col-xl-6">
+                        <div id='calendario'></div>
+                  </div>
+                  <div class="diogenes-col-xl-6 resultado-signo">
+                       <h1>Selecione uma data para saber o signo:</h1>
+                       <p id="resultadoSigno"></p>
+                  </div>
+            </div>
+      </div>
+                 
+      <script src="assets/js/jquery-3.4.1.min.js"></script>
+      <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script> <!-- LIB DO CALENDARIO -->
+      <script src='https://unpkg.com/@fullcalendar/core@5/locales/pt.js'></script> <!-- LIB ADICIONAL DO IDIOMA -->
+
+      <script type="text/javascript" src="assets/js/scripts.js"></script>
+
+</body>
+</html>
